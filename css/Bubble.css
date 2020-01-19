@@ -3,19 +3,33 @@
   padding: 0;
   width: 100%;
 }
-/* .tagcloud {
-  position: relative;
-  margin-top: 300px;
-}
-.tagcloud a {
-  display: block;
+.tagcloud div {
+  /* display: block; */
   border-radius: 50%;
   color: #fff;
   font-weight: bold;
   font-size: 16px;
   text-decoration: none;
   text-align: center;
-} */
+  vertical-align: top;
+  width: auto;
+}
+.tagcloud {
+  margin-top: 100px;
+  display: inline-block;
+  /* border-radius: 50%; */
+  color: #fff;
+  font-weight: bold;
+  font-size: 50px;
+  text-decoration: none;
+  text-align: center;
+  /* z-index: 9999; */
+  /* background: -moz-linear-gradient(top, #d1e5fd 0%, #3d86f4 100%);
+  background: -webkit-linear-gradient(top, #d1e5fd 0%, #3d86f4 100%);
+  background: -o-linear-gradient(top, #d1e5fd 0%, #3d86f4 100%);
+  background: -ms-linear-gradient(top, #d1e5fd 0%, #3d86f4 100%);
+  background: linear-gradient(to bottom, #d1e5fd 0%, #3d86f4 100%); */
+}
 /* 高等院校 */
 .tagcloud1 div {
   /* display: block; */
