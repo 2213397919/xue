@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 
 <head>
@@ -10,588 +10,491 @@
   <script type="text/javascript" src="js/Bubble.js"></script>
   <style>
     body {
-      background-color: #252525;
+      background-color: transparent;
     }
   </style>
 </head>
 
 <body>
   <div class="wrapper">
-    <div class="tagcloud">
+    <span style="display: block; color: #fff;position:absolute;top:46%;left:50%;font-size:60px;font-weight:900;">相数云</span>
+    <div class="tagcloud1">
       <!-- bo大小 co颜色 -->
-      <!-- <div class="tagcloud1" href="#">
-          高等院校 <a class="b02 co02" href="#">谢菲尔德大学</a>
-          <a class="b03 co05" href="#">Juhuasuan</a>
-          <a class="b04 co02" href="#">Today</a>
-          <a class="b03 co05" href="#">NetEase</a>
-          <a class="b02 co06" href="#">Fallow fish</a>
+      <div style="width:300px;">
+        <div class="b03 co05" style="height:80px;width:80px;display:inline-block;vertical-align:middle">
+          <img style="width:50px;height:33px;padding-left:0px;padding-top:15px" src="./assets/hadoudaxue.png" />
         </div>
-        <a class="b02 co02" href="#">Suning</a>
-        <div class="tagcloud1" href="#">
-          城市规划 <a class="b02 co02" href="#">Suning</a>
-          <a class="b03 co05" href="#">Juhuasuan</a>
-          <a class="b04 co02" href="#">Today</a>
-          <a class="b03 co05" href="#">NetEase</a>
-          <a class="b02 co06" href="#">Fallow fish</a>
-        </div>
-        <a class="b03 co05" href="#">Juhuasuan</a>
-        <div class="tagcloud1" href="#">
-          大数据 <a class="b02 co02" href="#">Suning</a>
-          <a class="b03 co05" href="#">Juhuasuan</a>
-          <a class="b04 co02" href="#">Today</a>
-          <a class="b03 co05" href="#">NetEase</a>
-          <a class="b02 co06" href="#">Fallow fish</a>
-        </div>
-        <a class="b04 co02" href="#">Today</a>
-        <div class="tagcloud1" href="#">
-          IT互联网 <a class="b02 co02" href="#">Suning</a>
-          <a class="b03 co05" href="#">Juhuasuan</a>
-          <a class="b04 co02" href="#">Today</a>
-          <a class="b03 co05" href="#">NetEase</a>
-          <a class="b02 co06" href="#">Fallow fish</a>
-        </div>
-        <a class="b03 co05" href="#">NetEase</a>
-        <div class="tagcloud1" href="#">
-          规划研究院 <a class="b02 co02" href="#">Suning</a>
-          <a class="b03 co05" href="#">Juhuasuan</a>
-          <a class="b04 co02" href="#">Today</a>
-          <a class="b03 co05" href="#">NetEase</a>
-          <a class="b02 co06" href="#">Fallow fish</a>
-        </div>
-        <a class="b02 co06" href="#">Fallow fish</a> -->
-      <div class="tagcloud1" href="#">
-        国土资源
-        <div style="width:300px;">
-          <div class="b03 co05" style="height:60px;width:60px;display:inline-block;vertical-align:middle">
-            <img style="width:50px;height:33px;padding-left:0px;padding-top:15px" src="./assets/hadoudaxue.png" />
-          </div>
-          <span>广西自然资源调查监测院</span>
-        </div>
-        <div style="height:20px;width:300px;">
-          <div class="co05" style="height:20px;width:20px;display:inline-block"></div>
-          <span style="height:20px;line-height:20px">陕西自然资源勘测设计</span>
-        </div>
-        <div style="height:20px;width:300px">
-          <div class="co05" style="height:20px;width:20px;display:inline-block"></div>
-          <span style="height:20px;line-height:20px">博源规划设计集团有限公司</span>
-        </div>
-        <div style="height:20px;width:300px">
-          <div class="co04" style="height:20px;width:20px;display:inline-block"></div>
-          <span style="height:20px;line-height:20px">大山峰工作室</span>
-        </div>
-        <div style="height:20px;width:300px">
-          <div class="co03" style="height:20px;width:20px;display:inline-block"></div>
-          <span style="height:20px;line-height:20px">金域美境</span>
-        </div>
+        <span>广西自然资源调查监测院</span>
       </div>
-      <div class="tagcloud2" href="#">
-        高等院校
-        <div style="width:300px;">
-          <div class="b03 co05" style="height:60px;width:60px;display:inline-block;vertical-align:middle">
-            <img style="width:50px;height:33px;padding-left:0px;padding-top:15px"
-              src="./assets/univeisity/xfeddx.svg" />
-          </div>
-          <span>谢菲尔德大学</span>
-        </div>
-        <div style="height:20px;width:300px;">
-          <div class="co05" style="height:20px;width:20px;display:inline-block"></div>
-          <span style="height:20px;line-height:20px">澳门大学</span>
-        </div>
-        <div style="width:300px;">
-          <div class="b03 co05" style="height:60px;width:60px;display:inline-block;vertical-align:middle">
-            <img style="width:50px;height:33px;padding-left:0px;padding-top:15px" src="./assets/univeisity/bjdx.png" />
-          </div>
-          <span>北京大学</span>
-        </div>
-        <div style="height:20px;width:300px;">
-          <div class="co05" style="height:20px;width:20px;display:inline-block"></div>
-          <span style="height:20px;line-height:20px">北京师范大学</span>
-        </div>
-        <div style="width:300px;">
-          <div class="b03 co05" style="height:60px;width:60px;display:inline-block;vertical-align:middle">
-            <img style="width:50px;height:33px;padding-left:0px;padding-top:15px" src="./assets/univeisity/fddx.png" />
-          </div>
-          <span>复旦大学</span>
-        </div>
-        <div style="width:300px;">
-          <div class="b03 co05" style="height:60px;width:60px;display:inline-block;vertical-align:middle">
-            <img style="width:50px;height:33px;padding-left:0px;padding-top:15px" src="./assets/univeisity/hfdx.png" />
-          </div>
-          <span>哈佛大学</span>
-        </div>
-        <div style="width:300px;">
-          <div class="b03 co05" style="height:60px;width:60px;display:inline-block;vertical-align:middle">
-            <img style="width:50px;height:33px;padding-left:0px;padding-top:15px" src="./assets/univeisity/jqdx.png" />
-          </div>
-          <span>剑桥大学</span>
-        </div>
-        <div style="width:300px;">
-          <div class="b03 co05" style="height:60px;width:60px;display:inline-block;vertical-align:middle">
-            <img style="width:50px;height:33px;padding-left:0px;padding-top:15px" src="./assets/univeisity/qhdx.svg" />
-          </div>
-          <span>清华大学</span>
-        </div>
-        <div style="width:300px;">
-          <div class="b03 co05" style="height:60px;width:60px;display:inline-block;vertical-align:middle">
-            <img style="width:50px;height:33px;padding-left:0px;padding-top:15px" src="./assets/univeisity/whdx.png" />
-          </div>
-          <span>武汉大学</span>
-        </div>
-        <div style="width:300px;">
-          <div class="b03 co05" style="height:60px;width:60px;display:inline-block;vertical-align:middle">
-            <img style="width:50px;height:33px;padding-left:0px;padding-top:15px" src="./assets/univeisity/xgcsdx.svg" />
-          </div>
-          <span>香港城市大学</span>
-        </div>
-        <div style="width:300px;">
-          <div class="b03 co05" style="height:60px;width:60px;display:inline-block;vertical-align:middle">
-            <img style="width:50px;height:33px;padding-left:0px;padding-top:15px" src="./assets/univeisity/zgrmdx.png" />
-          </div>
-          <span>中国人民大学</span>
-        </div>
-        <div style="width:300px;">
-          <div class="b03 co05" style="height:60px;width:60px;display:inline-block;vertical-align:middle">
-            <img style="width:50px;height:33px;padding-left:0px;padding-top:15px" src="./assets/univeisity/zsdx.jpg" />
-          </div>
-          <span>中山大学</span>
-        </div>
-        <div style="height:20px;width:300px;">
-          <div class="co05" style="height:20px;width:20px;display:inline-block"></div>
-          <span style="height:20px;line-height:20px">河南大学</span>
-        </div>
-        <div style="height:20px;width:300px;">
-          <div class="co05" style="height:20px;width:20px;display:inline-block"></div>
-          <span style="height:20px;line-height:20px">湖南大学设计研究院</span>
-        </div>
-        <div style="height:20px;width:300px;">
-          <div class="co05" style="height:20px;width:20px;display:inline-block"></div>
-          <span style="height:20px;line-height:20px">中国石油大学</span>
-        </div>
-        <div style="height:20px;width:300px;">
-          <div class="co05" style="height:20px;width:20px;display:inline-block"></div>
-          <span style="height:20px;line-height:20px">江西农业大学</span>
-        </div>
-        <div style="height:20px;width:300px;">
-          <div class="co05" style="height:20px;width:20px;display:inline-block"></div>
-          <span style="height:20px;line-height:20px">昆明理工大学</span>
-        </div>
-        <div style="height:20px;width:300px;">
-          <div class="co05" style="height:20px;width:20px;display:inline-block"></div>
-          <span style="height:20px;line-height:20px">青岛理工大学</span>
-        </div>
-        <div style="height:20px;width:300px;">
-          <div class="co05" style="height:20px;width:20px;display:inline-block"></div>
-          <span style="height:20px;line-height:20px">山东大学</span>
-        </div>
-        <div style="height:20px;width:300px;">
-          <div class="co05" style="height:20px;width:20px;display:inline-block"></div>
-          <span style="height:20px;line-height:20px">上海理工大学</span>
-        </div>
-        <div style="height:20px;width:300px;">
-          <div class="co05" style="height:20px;width:20px;display:inline-block"></div>
-          <span style="height:20px;line-height:20px">天津城建大学</span>
-        </div>
-        <div style="height:20px;width:300px;">
-          <div class="co05" style="height:20px;width:20px;display:inline-block"></div>
-          <span style="height:20px;line-height:20px">天津大学</span>
-        </div>
+      <div style="height:60px;width:300px;">
+        <div class="co05" style="height:60px;width:60px;display:inline-block"></div>
+        <span style="height:60px;line-height:60px">陕西自然资源勘测设计</span>
       </div>
-      <div class="tagcloud3" href="#">
-        城市规划
-        <div style="width:300px;">
-          <div class="b03 co05" style="height:60px;width:60px;display:inline-block;vertical-align:middle">
-            <img style="width:50px;height:33px;padding-left:0px;padding-top:15px"
-              src="./assets/citydesgin/北京市建筑设计研究院.png" />
-          </div>
-          <span>北京市建筑设计研究院</span>
-        </div>
-        <div style="width:300px;">
-          <div class="b03 co05" style="height:60px;width:60px;display:inline-block;vertical-align:middle">
-            <img style="width:50px;height:33px;padding-left:0px;padding-top:15px" src="./assets/citydesgin/城市科学规划设计研究院有限公司.png" />
-          </div>
-          <span>城市科学规划设计研究院有限公司</span>
-        </div>
-        <div style="height:20px;width:300px;">
-          <div class="co05" style="height:20px;width:20px;display:inline-block"></div>
-          <span style="height:20px;line-height:20px">广东省乡村振兴服务中心</span>
-        </div>
-        <div style="height:20px;width:300px;">
-          <div class="co05" style="height:20px;width:20px;display:inline-block"></div>
-          <span style="height:20px;line-height:20px">杭州市规划院</span>
-        </div>
-        <div style="width:300px;">
-          <div class="b03 co05" style="height:60px;width:60px;display:inline-block;vertical-align:middle">
-            <img style="width:50px;height:33px;padding-left:0px;padding-top:15px" src="./assets/citydesgin/河南省城乡规划设计研究总院有限公司.png" />
-          </div>
-          <span>河南省城乡规划设计研究总院有限公司</span>
-        </div>
-        <div style="height:20px;width:300px;">
-          <div class="co05" style="height:20px;width:20px;display:inline-block"></div>
-          <span style="height:20px;line-height:20px">河南省规划院</span>
-        </div>
-        <div style="height:20px;width:300px;">
-          <div class="co05" style="height:20px;width:20px;display:inline-block"></div>
-          <span style="height:20px;line-height:20px">湖北省城市规划设计研究院</span>
-        </div>
-        <div style="height:20px;width:300px;">
-          <div class="co05" style="height:20px;width:20px;display:inline-block"></div>
-          <span style="height:20px;line-height:20px">湖南城市学院</span>
-        </div>
-        <div style="height:20px;width:300px;">
-          <div class="co05" style="height:20px;width:20px;display:inline-block"></div>
-          <span style="height:20px;line-height:20px">嘉兴市规划设计研究院</span>
-        </div>
-        <div style="width:300px;">
-          <div class="b03 co05" style="height:60px;width:60px;display:inline-block;vertical-align:middle">
-            <img style="width:50px;height:33px;padding-left:0px;padding-top:15px" src="./assets/citydesgin/江苏省城市规划设计研究院.png" />
-          </div>
-          <span>江苏省城市规划设计研究院</span>
-        </div>
-        <div style="height:20px;width:300px;">
-          <div class="co05" style="height:20px;width:20px;display:inline-block"></div>
-          <span style="height:20px;line-height:20px">宁波市规划设计研究院</span>
-        </div>
-        <div style="height:20px;width:300px;">
-          <div class="co05" style="height:20px;width:20px;display:inline-block"></div>
-          <span style="height:20px;line-height:20px">上海市建工设计研究总院有限公司</span>
-        </div>
-        <div style="height:20px;width:300px;">
-          <div class="co05" style="height:20px;width:20px;display:inline-block"></div>
-          <span style="height:20px;line-height:20px">深圳市城市交通规划设计研究中心有限公司</span>
-        </div>
-        <div style="height:20px;width:300px;">
-          <div class="co05" style="height:20px;width:20px;display:inline-block"></div>
-          <span style="height:20px;line-height:20px">深圳市建筑设计研究总院有限公司</span>
-        </div>
-        <div style="height:20px;width:300px;">
-          <div class="co05" style="height:20px;width:20px;display:inline-block"></div>
-          <span style="height:20px;line-height:20px">武汉大学城市设计学院第七工作室</span>
-        </div>
-        <div style="height:20px;width:300px;">
-          <div class="co05" style="height:20px;width:20px;display:inline-block"></div>
-          <span style="height:20px;line-height:20px">西安市规划院</span>
-        </div>
-        <div style="height:20px;width:300px;">
-          <div class="co05" style="height:20px;width:20px;display:inline-block"></div>
-          <span style="height:20px;line-height:20px">宿迁市规划院</span>
-        </div>
-        <div style="height:20px;width:300px;">
-          <div class="co05" style="height:20px;width:20px;display:inline-block"></div>
-          <span style="height:20px;line-height:20px">云南省城乡规划设计研究院</span>
-        </div>
-        <div style="height:20px;width:300px;">
-          <div class="co05" style="height:20px;width:20px;display:inline-block"></div>
-          <span style="height:20px;line-height:20px">云南省规划院</span>
-        </div>
-        <div style="height:20px;width:300px;">
-          <div class="co05" style="height:20px;width:20px;display:inline-block"></div>
-          <span style="height:20px;line-height:20px">中国城市科学研究会</span>
-        </div>
-        <div style="width:300px;">
-          <div class="b03 co05" style="height:60px;width:60px;display:inline-block;vertical-align:middle">
-            <img style="width:50px;height:33px;padding-left:0px;padding-top:15px" src="./assets/citydesgin/中国市政西北设计院.png" />
-          </div>
-          <span>中国市政西北设计院</span>
-        </div>
-        <div style="height:20px;width:300px;">
-          <div class="co05" style="height:20px;width:20px;display:inline-block"></div>
-          <span style="height:20px;line-height:20px">遵义市规划设计院</span>
-        </div>
+      <div style="height:60px;width:300px">
+        <div class="co05" style="height:60px;width:60px;display:inline-block"></div>
+        <span style="height:60px;line-height:60px">博源规划设计集团有限公司</span>
       </div>
-      <div class="tagcloud4" href="#">
-        大数据
-        <div style="height:20px;width:300px;">
-          <div class="co05" style="height:20px;width:20px;display:inline-block"></div>
-          <span style="height:20px;line-height:20px">北斗星通</span>
-        </div>
-        <div style="height:20px;width:300px;">
-          <div class="co05" style="height:20px;width:20px;display:inline-block"></div>
-          <span style="height:20px;line-height:20px">北京理工新源信息科技有限公司</span>
-        </div>
-        <div style="width:300px;">
-          <div class="b03 co05" style="height:60px;width:60px;display:inline-block;vertical-align:middle">
-            <img style="width:50px;height:33px;padding-left:0px;padding-top:15px"
-              src="./assets/maxdata/航天科工网络信息发展有限公司.png" />
-          </div>
-          <span>航天科工网络信息发展有限公司</span>
-        </div>
-        <div style="height:20px;width:300px;">
-          <div class="co05" style="height:20px;width:20px;display:inline-block"></div>
-          <span style="height:20px;line-height:20px">零点科技</span>
-        </div>
-        <div style="width:300px;">
-          <div class="b03 co05" style="height:60px;width:60px;display:inline-block;vertical-align:middle">
-            <img style="width:50px;height:33px;padding-left:0px;padding-top:15px"
-              src="./assets/maxdata/赛迪顾问.png" />
-          </div>
-          <span>赛迪顾问</span>
-        </div>
-        <div style="height:20px;width:300px;">
-          <div class="co05" style="height:20px;width:20px;display:inline-block"></div>
-          <span style="height:20px;line-height:20px">泰豪</span>
-        </div>
-        <div style="width:300px;">
-          <div class="b03 co05" style="height:60px;width:60px;display:inline-block;vertical-align:middle">
-            <img style="width:50px;height:33px;padding-left:0px;padding-top:15px"
-              src="./assets/maxdata/易华录.jpg" />
-          </div>
-          <span>易华录</span>
-        </div>
-        <div style="height:20px;width:300px;">
-          <div class="co05" style="height:20px;width:20px;display:inline-block"></div>
-          <span style="height:20px;line-height:20px">北京二零四八科技有限公司</span>
-        </div>
-        <div style="height:20px;width:300px;">
-          <div class="co05" style="height:20px;width:20px;display:inline-block"></div>
-          <span style="height:20px;line-height:20px">波利俘</span>
-        </div>
-        <div style="height:20px;width:300px;">
-          <div class="co05" style="height:20px;width:20px;display:inline-block"></div>
-          <span style="height:20px;line-height:20px">博宇通达</span>
-        </div>
-        <div style="height:20px;width:300px;">
-          <div class="co05" style="height:20px;width:20px;display:inline-block"></div>
-          <span style="height:20px;line-height:20px">广东国地规划科技股份有限公司</span>
-        </div>
-        <div style="height:20px;width:300px;">
-          <div class="co05" style="height:20px;width:20px;display:inline-block"></div>
-          <span style="height:20px;line-height:20px">贵州商学院</span>
-        </div>
-        <div style="height:20px;width:300px;">
-          <div class="co05" style="height:20px;width:20px;display:inline-block"></div>
-          <span style="height:20px;line-height:20px">湖北腾楚网络科技</span>
-        </div>
-        <div style="height:20px;width:300px;">
-          <div class="co05" style="height:20px;width:20px;display:inline-block"></div>
-          <span style="height:20px;line-height:20px">华夏慧品</span>
-        </div>
-        <div style="height:20px;width:300px;">
-          <div class="co05" style="height:20px;width:20px;display:inline-block"></div>
-          <span style="height:20px;line-height:20px">交通大数据</span>
-        </div>
-        <div style="height:20px;width:300px;">
-          <div class="co05" style="height:20px;width:20px;display:inline-block"></div>
-          <span style="height:20px;line-height:20px">罗兰贝格</span>
-        </div>
-        <div style="width:300px;">
-          <div class="b03 co05" style="height:60px;width:60px;display:inline-block;vertical-align:middle">
-            <img style="width:50px;height:33px;padding-left:0px;padding-top:15px"
-              src="./assets/maxdata/深圳市麦达数字股份有限公司.png" />
-          </div>
-          <span>麦达数字</span>
-        </div>
-        <div style="width:300px;">
-          <div class="b03 co05" style="height:60px;width:60px;display:inline-block;vertical-align:middle">
-            <img style="width:50px;height:33px;padding-left:0px;padding-top:15px"
-              src="./assets/maxdata/南京江北新区大数据管理中心.png" />
-          </div>
-          <span>南京江北新区大数据管理中心</span>
-        </div>
-        <div style="height:20px;width:300px;">
-          <div class="co05" style="height:20px;width:20px;display:inline-block"></div>
-          <span style="height:20px;line-height:20px">四川多米塔科技有限公司</span>
-        </div>
-        <div style="height:20px;width:300px;">
-          <div class="co05" style="height:20px;width:20px;display:inline-block"></div>
-          <span style="height:20px;line-height:20px">医合智慧</span>
-        </div>
-        <div style="height:20px;width:300px;">
-          <div class="co05" style="height:20px;width:20px;display:inline-block"></div>
-          <span style="height:20px;line-height:20px">中电洲际</span>
-        </div>
+      <div style="height:60px;width:300px">
+        <div class="co04" style="height:60px;width:60px;display:inline-block"></div>
+        <span style="height:60px;line-height:60px">大山峰工作室</span>
       </div>
-      <div class="tagcloud1" href="#">
-        IT互联网
-        <div style="height:20px;width:300px;">
-          <div class="co05" style="height:20px;width:20px;display:inline-block"></div>
-          <span style="height:20px;line-height:20px">北京图鲸科技有限公司</span>
-        </div>
-        <div style="height:20px;width:300px;">
-          <div class="co05" style="height:20px;width:20px;display:inline-block"></div>
-          <span style="height:20px;line-height:20px">北京智慧星光信息技术有限公司</span>
-        </div>
-        <div style="width:300px;">
-          <div class="b03 co05" style="height:60px;width:60px;display:inline-block;vertical-align:middle">
-            <img style="width:50px;height:33px;padding-left:0px;padding-top:15px"
-              src="./assets/ITnetwork/华为科技.png" />
-          </div>
-          <span>华为科技</span>
-        </div>
-        <div style="width:300px;">
-          <div class="b03 co05" style="height:60px;width:60px;display:inline-block;vertical-align:middle">
-            <img style="width:50px;height:33px;padding-left:0px;padding-top:15px"
-              src="./assets/ITnetwork/腾讯科技.png" />
-          </div>
-          <span>腾讯科技</span>
-        </div>
-        <div style="height:20px;width:300px;">
-          <div class="co05" style="height:20px;width:20px;display:inline-block"></div>
-          <span style="height:20px;line-height:20px">北京易视点数码技术有限公司</span>
-        </div>
-        <div style="height:20px;width:300px;">
-          <div class="co05" style="height:20px;width:20px;display:inline-block"></div>
-          <span style="height:20px;line-height:20px">海医通</span>
-        </div>
-        <div style="height:20px;width:300px;">
-          <div class="co05" style="height:20px;width:20px;display:inline-block"></div>
-          <span style="height:20px;line-height:20px">花园兔数字园林</span>
-        </div>
-        <div style="height:20px;width:300px;">
-          <div class="co05" style="height:20px;width:20px;display:inline-block"></div>
-          <span style="height:20px;line-height:20px">昆岗科技</span>
-        </div>
-        <div style="height:20px;width:300px;">
-          <div class="co05" style="height:20px;width:20px;display:inline-block"></div>
-          <span style="height:20px;line-height:20px">上海积成慧集信息技术有限公司</span>
-        </div>
-        <div style="height:20px;width:300px;">
-          <div class="co05" style="height:20px;width:20px;display:inline-block"></div>
-          <span style="height:20px;line-height:20px">深圳市椭圆方程科技有限公司</span>
-        </div>
-        <div style="height:20px;width:300px;">
-          <div class="co05" style="height:20px;width:20px;display:inline-block"></div>
-          <span style="height:20px;line-height:20px">武大吉奥信息技术有限公司</span>
-        </div>
-        <div style="height:20px;width:300px;">
-          <div class="co05" style="height:20px;width:20px;display:inline-block"></div>
-          <span style="height:20px;line-height:20px">西安若华信息科技有限公司</span>
-        </div>
-        <div style="height:20px;width:300px;">
-          <div class="co05" style="height:20px;width:20px;display:inline-block"></div>
-          <span style="height:20px;line-height:20px">中冶赛迪</span>
-        </div>
-        <div style="height:20px;width:300px;">
-          <div class="co05" style="height:20px;width:20px;display:inline-block"></div>
-          <span style="height:20px;line-height:20px">资酷科技</span>
-        </div>
+      <div style="height:60px;width:300px">
+        <div class="co03" style="height:60px;width:60px;display:inline-block"></div>
+        <span style="height:60px;line-height:60px">金域美境</span>
       </div>
-      <div class="tagcloud1" href="#">
-        规划研究院
-        <div style="height:20px;width:300px;">
-          <div class="co05" style="height:20px;width:20px;display:inline-block"></div>
-          <span style="height:20px;line-height:20px">国家发改委城市中心</span>
+      <!-- 高等院校 -->
+      <div style="width:300px;">
+        <div class="b03 co05" style="height:80px;width:80px;display:inline-block;vertical-align:middle">
+          <img style="width:50px;height:33px;padding-left:0px;padding-top:15px"
+            src="./assets/univeisity/xfeddx.svg" />
         </div>
-        <div style="height:20px;width:300px;">
-          <div class="co05" style="height:20px;width:20px;display:inline-block"></div>
-          <span style="height:20px;line-height:20px">国务院发展研究中心</span>
+        <span>谢菲尔德大学</span>
+      </div>
+      <div style="height:60px;width:300px;">
+        <div class="co05" style="height:60px;width:60px;display:inline-block"></div>
+        <span style="height:60px;line-height:60px">澳门大学</span>
+      </div>
+      <div style="width:300px;">
+        <div class="b03 co05" style="height:80px;width:80px;display:inline-block;vertical-align:middle">
+          <img style="width:50px;height:33px;padding-left:0px;padding-top:15px" src="./assets/univeisity/bjdx.png" />
         </div>
-        <div style="height:20px;width:300px;">
-          <div class="co05" style="height:20px;width:20px;display:inline-block"></div>
-          <span style="height:20px;line-height:20px">中国城市规划设计研究院</span>
+        <span>北京大学</span>
+      </div>
+      <div style="height:60px;width:300px;">
+        <div class="co05" style="height:60px;width:60px;display:inline-block"></div>
+        <span style="height:60px;line-height:60px">北京师范大学</span>
+      </div>
+      <div style="width:300px;">
+        <div class="b03 co05" style="height:80px;width:80px;display:inline-block;vertical-align:middle">
+          <img style="width:50px;height:33px;padding-left:0px;padding-top:15px" src="./assets/univeisity/fddx.png" />
         </div>
-        <div style="height:20px;width:300px;">
-          <div class="co05" style="height:20px;width:20px;display:inline-block"></div>
-          <span style="height:20px;line-height:20px">广东省建筑设计研究院</span>
+        <span>复旦大学</span>
+      </div>
+      <div style="width:300px;">
+        <div class="b03 co05" style="height:80px;width:80px;display:inline-block;vertical-align:middle">
+          <img style="width:50px;height:33px;padding-left:0px;padding-top:15px" src="./assets/univeisity/hfdx.png" />
         </div>
-        <div style="height:20px;width:300px;">
-          <div class="co05" style="height:20px;width:20px;display:inline-block"></div>
-          <span style="height:20px;line-height:20px">河南省城乡规划设计研究总院</span>
+        <span>哈佛大学</span>
+      </div>
+      <div style="width:300px;">
+        <div class="b03 co05" style="height:80px;width:80px;display:inline-block;vertical-align:middle">
+          <img style="width:50px;height:33px;padding-left:0px;padding-top:15px" src="./assets/univeisity/jqdx.png" />
         </div>
-        <div style="height:20px;width:300px;">
-          <div class="co05" style="height:20px;width:20px;display:inline-block"></div>
-          <span style="height:20px;line-height:20px">河南省城乡建筑设计院</span>
+        <span>剑桥大学</span>
+      </div>
+      <div style="width:300px;">
+        <div class="b03 co05" style="height:80px;width:80px;display:inline-block;vertical-align:middle">
+          <img style="width:50px;height:33px;padding-left:0px;padding-top:15px" src="./assets/univeisity/qhdx.svg" />
         </div>
-        <div style="height:20px;width:300px;">
-          <div class="co05" style="height:20px;width:20px;display:inline-block"></div>
-          <span style="height:20px;line-height:20px">邵阳市城市规划设计研究院</span>
+        <span>清华大学</span>
+      </div>
+      <div style="width:300px;">
+        <div class="b03 co05" style="height:80px;width:80px;display:inline-block;vertical-align:middle">
+          <img style="width:50px;height:33px;padding-left:0px;padding-top:15px" src="./assets/univeisity/whdx.png" />
         </div>
-        <div style="height:20px;width:300px;">
-          <div class="co05" style="height:20px;width:20px;display:inline-block"></div>
-          <span style="height:20px;line-height:20px">清华规划院</span>
+        <span>武汉大学</span>
+      </div>
+      <div style="width:300px;">
+        <div class="b03 co05" style="height:80px;width:80px;display:inline-block;vertical-align:middle">
+          <img style="width:50px;height:33px;padding-left:0px;padding-top:15px" src="./assets/univeisity/xgcsdx.svg" />
         </div>
-        <div style="height:20px;width:300px;">
-          <div class="co05" style="height:20px;width:20px;display:inline-block"></div>
-          <span style="height:20px;line-height:20px">武汉市规划院</span>
+        <span>香港城市大学</span>
+      </div>
+      <div style="width:300px;">
+        <div class="b03 co05" style="height:80px;width:80px;display:inline-block;vertical-align:middle">
+          <img style="width:50px;height:33px;padding-left:0px;padding-top:15px" src="./assets/univeisity/zgrmdx.png" />
         </div>
-        <div style="height:20px;width:300px;">
-          <div class="co05" style="height:20px;width:20px;display:inline-block"></div>
-          <span style="height:20px;line-height:20px">西安城市规划设计研究院</span>
+        <span>中国人民大学</span>
+      </div>
+      <div style="width:300px;">
+        <div class="b03 co05" style="height:80px;width:80px;display:inline-block;vertical-align:middle">
+          <img style="width:50px;height:33px;padding-left:0px;padding-top:15px" src="./assets/univeisity/zsdx.jpg" />
         </div>
-        <div style="height:20px;width:300px;">
-          <div class="co05" style="height:20px;width:20px;display:inline-block"></div>
-          <span style="height:20px;line-height:20px">浙江大学城乡规划设计研究院</span>
+        <span>中山大学</span>
+      </div>
+      <div style="height:60px;width:300px;">
+        <div class="co05" style="height:60px;width:60px;display:inline-block"></div>
+        <span style="height:60px;line-height:60px">河南大学</span>
+      </div>
+      <div style="height:60px;width:300px;">
+        <div class="co05" style="height:60px;width:60px;display:inline-block"></div>
+        <span style="height:60px;line-height:60px">湖南大学设计研究院</span>
+      </div>
+      <div style="height:60px;width:300px;">
+        <div class="co05" style="height:60px;width:60px;display:inline-block"></div>
+        <span style="height:60px;line-height:60px">中国石油大学</span>
+      </div>
+      <div style="height:60px;width:300px;">
+        <div class="co05" style="height:60px;width:60px;display:inline-block"></div>
+        <span style="height:60px;line-height:60px">江西农业大学</span>
+      </div>
+      <div style="height:60px;width:300px;">
+        <div class="co05" style="height:60px;width:60px;display:inline-block"></div>
+        <span style="height:60px;line-height:60px">昆明理工大学</span>
+      </div>
+      <div style="height:60px;width:300px;">
+        <div class="co05" style="height:60px;width:60px;display:inline-block"></div>
+        <span style="height:60px;line-height:60px">青岛理工大学</span>
+      </div>
+      <div style="height:60px;width:300px;">
+        <div class="co05" style="height:60px;width:60px;display:inline-block"></div>
+        <span style="height:60px;line-height:60px">山东大学</span>
+      </div>
+      <div style="height:60px;width:300px;">
+        <div class="co05" style="height:60px;width:60px;display:inline-block"></div>
+        <span style="height:60px;line-height:60px">上海理工大学</span>
+      </div>
+      <div style="height:60px;width:300px;">
+        <div class="co05" style="height:60px;width:60px;display:inline-block"></div>
+        <span style="height:60px;line-height:60px">天津城建大学</span>
+      </div>
+      <div style="height:60px;width:300px;">
+        <div class="co05" style="height:60px;width:60px;display:inline-block"></div>
+        <span style="height:60px;line-height:60px">天津大学</span>
+      </div>
+      <!-- 城市规划 -->
+      <div style="width:300px;">
+        <div class="b03 co05" style="height:80px;width:80px;display:inline-block;vertical-align:middle">
+          <img style="width:50px;height:33px;padding-left:0px;padding-top:15px"
+            src="./assets/citydesgin/北京市建筑设计研究院.png" />
         </div>
-        <div style="height:20px;width:300px;">
-          <div class="co05" style="height:20px;width:20px;display:inline-block"></div>
-          <span style="height:20px;line-height:20px">中国航空规划</span>
+        <span>北京市建筑设计研究院</span>
+      </div>
+      <div style="width:300px;">
+        <div class="b03 co05" style="height:80px;width:80px;display:inline-block;vertical-align:middle">
+          <img style="width:50px;height:33px;padding-left:0px;padding-top:15px" src="./assets/citydesgin/城市科学规划设计研究院有限公司.png" />
         </div>
-        <div style="height:20px;width:300px;">
-          <div class="co05" style="height:20px;width:20px;display:inline-block"></div>
-          <span style="height:20px;line-height:20px">中国建筑科学研究院</span>
+        <span>城市科学规划设计研究院有限公司</span>
+      </div>
+      <div style="height:60px;width:300px;">
+        <div class="co05" style="height:60px;width:60px;display:inline-block"></div>
+        <span style="height:60px;line-height:60px">广东省乡村振兴服务中心</span>
+      </div>
+      <div style="height:60px;width:300px;">
+        <div class="co05" style="height:60px;width:60px;display:inline-block"></div>
+        <span style="height:60px;line-height:60px">杭州市规划院</span>
+      </div>
+      <div style="width:300px;">
+        <div class="b03 co05" style="height:80px;width:80px;display:inline-block;vertical-align:middle">
+          <img style="width:50px;height:33px;padding-left:0px;padding-top:15px" src="./assets/citydesgin/河南省城乡规划设计研究总院有限公司.png" />
         </div>
-        <div style="height:20px;width:300px;">
-          <div class="co05" style="height:20px;width:20px;display:inline-block"></div>
-          <span style="height:20px;line-height:20px">中国中建设计集团有限公司</span>
+        <span>河南省城乡规划设计研究总院有限公司</span>
+      </div>
+      <div style="height:60px;width:300px;">
+        <div class="co05" style="height:60px;width:60px;display:inline-block"></div>
+        <span style="height:60px;line-height:60px">河南省规划院</span>
+      </div>
+      <div style="height:60px;width:300px;">
+        <div class="co05" style="height:60px;width:60px;display:inline-block"></div>
+        <span style="height:60px;line-height:60px">湖北省城市规划设计研究院</span>
+      </div>
+      <div style="height:60px;width:300px;">
+        <div class="co05" style="height:60px;width:60px;display:inline-block"></div>
+        <span style="height:60px;line-height:60px">湖南城市学院</span>
+      </div>
+      <div style="height:60px;width:300px;">
+        <div class="co05" style="height:60px;width:60px;display:inline-block"></div>
+        <span style="height:60px;line-height:60px">嘉兴市规划设计研究院</span>
+      </div>
+      <div style="width:300px;">
+        <div class="b03 co05" style="height:80px;width:80px;display:inline-block;vertical-align:middle">
+          <img style="width:50px;height:33px;padding-left:0px;padding-top:15px" src="./assets/citydesgin/江苏省城市规划设计研究院.png" />
         </div>
-        <div style="height:20px;width:300px;">
-          <div class="co05" style="height:20px;width:20px;display:inline-block"></div>
-          <span style="height:20px;line-height:20px">上海市建筑科学研究院</span>
+        <span>江苏省城市规划设计研究院</span>
+      </div>
+      <div style="height:60px;width:300px;">
+        <div class="co05" style="height:60px;width:60px;display:inline-block"></div>
+        <span style="height:60px;line-height:60px">宁波市规划设计研究院</span>
+      </div>
+      <div style="height:60px;width:300px;">
+        <div class="co05" style="height:60px;width:60px;display:inline-block"></div>
+        <span style="height:60px;line-height:60px">上海市建工设计研究总院有限公司</span>
+      </div>
+      <div style="height:60px;width:300px;">
+        <div class="co05" style="height:60px;width:60px;display:inline-block"></div>
+        <span style="height:60px;line-height:60px">深圳市城市交通规划设计研究中心有限公司</span>
+      </div>
+      <div style="height:60px;width:300px;">
+        <div class="co05" style="height:60px;width:60px;display:inline-block"></div>
+        <span style="height:60px;line-height:60px">深圳市建筑设计研究总院有限公司</span>
+      </div>
+      <div style="height:60px;width:300px;">
+        <div class="co05" style="height:60px;width:60px;display:inline-block"></div>
+        <span style="height:60px;line-height:60px">武汉大学城市设计学院第七工作室</span>
+      </div>
+      <div style="height:60px;width:300px;">
+        <div class="co05" style="height:60px;width:60px;display:inline-block"></div>
+        <span style="height:60px;line-height:60px">西安市规划院</span>
+      </div>
+      <div style="height:60px;width:300px;">
+        <div class="co05" style="height:60px;width:60px;display:inline-block"></div>
+        <span style="height:60px;line-height:60px">宿迁市规划院</span>
+      </div>
+      <div style="height:60px;width:300px;">
+        <div class="co05" style="height:60px;width:60px;display:inline-block"></div>
+        <span style="height:60px;line-height:60px">云南省城乡规划设计研究院</span>
+      </div>
+      <div style="height:60px;width:300px;">
+        <div class="co05" style="height:60px;width:60px;display:inline-block"></div>
+        <span style="height:60px;line-height:60px">云南省规划院</span>
+      </div>
+      <div style="height:60px;width:300px;">
+        <div class="co05" style="height:60px;width:60px;display:inline-block"></div>
+        <span style="height:60px;line-height:60px">中国城市科学研究会</span>
+      </div>
+      <div style="width:300px;">
+        <div class="b03 co05" style="height:80px;width:80px;display:inline-block;vertical-align:middle">
+          <img style="width:50px;height:33px;padding-left:0px;padding-top:15px" src="./assets/citydesgin/中国市政西北设计院.png" />
         </div>
-        <div style="height:20px;width:300px;">
-          <div class="co05" style="height:20px;width:20px;display:inline-block"></div>
-          <span style="height:20px;line-height:20px">中科院地理所</span>
+        <span>中国市政西北设计院</span>
+      </div>
+      <div style="height:60px;width:300px;">
+        <div class="co05" style="height:60px;width:60px;display:inline-block"></div>
+        <span style="height:60px;line-height:60px">遵义市规划设计院</span>
+      </div>
+      <!-- 大数据 -->
+      <div style="height:60px;width:300px;">
+        <div class="co05" style="height:60px;width:60px;display:inline-block"></div>
+        <span style="height:60px;line-height:60px">北斗星通</span>
+      </div>
+      <div style="height:60px;width:300px;">
+        <div class="co05" style="height:60px;width:60px;display:inline-block"></div>
+        <span style="height:60px;line-height:60px">北京理工新源信息科技有限公司</span>
+      </div>
+      <div style="width:300px;">
+        <div class="b03 co05" style="height:80px;width:80px;display:inline-block;vertical-align:middle">
+          <img style="width:50px;height:33px;padding-left:0px;padding-top:15px"
+            src="./assets/maxdata/航天科工网络信息发展有限公司.png" />
         </div>
-        <div style="height:20px;width:300px;">
-          <div class="co05" style="height:20px;width:20px;display:inline-block"></div>
-          <span style="height:20px;line-height:20px">北京华清安地建筑设计有限公司</span>
+        <span>航天科工网络信息发展有限公司</span>
+      </div>
+      <div style="height:60px;width:300px;">
+        <div class="co05" style="height:60px;width:60px;display:inline-block"></div>
+        <span style="height:60px;line-height:60px">零点科技</span>
+      </div>
+      <div style="width:300px;">
+        <div class="b03 co05" style="height:80px;width:80px;display:inline-block;vertical-align:middle">
+          <img style="width:50px;height:33px;padding-left:0px;padding-top:15px"
+            src="./assets/maxdata/赛迪顾问.png" />
         </div>
+        <span>赛迪顾问</span>
+      </div>
+      <div style="height:60px;width:300px;">
+        <div class="co05" style="height:60px;width:60px;display:inline-block"></div>
+        <span style="height:60px;line-height:60px">泰豪</span>
+      </div>
+      <div style="width:300px;">
+        <div class="b03 co05" style="height:80px;width:80px;display:inline-block;vertical-align:middle">
+          <img style="width:50px;height:33px;padding-left:0px;padding-top:15px"
+            src="./assets/maxdata/易华录.jpg" />
+        </div>
+        <span>易华录</span>
+      </div>
+      <div style="height:60px;width:300px;">
+        <div class="co05" style="height:60px;width:60px;display:inline-block"></div>
+        <span style="height:60px;line-height:60px">北京二零四八科技有限公司</span>
+      </div>
+      <div style="height:60px;width:300px;">
+        <div class="co05" style="height:60px;width:60px;display:inline-block"></div>
+        <span style="height:60px;line-height:60px">波利俘</span>
+      </div>
+      <div style="height:60px;width:300px;">
+        <div class="co05" style="height:60px;width:60px;display:inline-block"></div>
+        <span style="height:60px;line-height:60px">博宇通达</span>
+      </div>
+      <div style="height:60px;width:300px;">
+        <div class="co05" style="height:60px;width:60px;display:inline-block"></div>
+        <span style="height:60px;line-height:60px">广东国地规划科技股份有限公司</span>
+      </div>
+      <div style="height:60px;width:300px;">
+        <div class="co05" style="height:60px;width:60px;display:inline-block"></div>
+        <span style="height:60px;line-height:60px">贵州商学院</span>
+      </div>
+      <div style="height:60px;width:300px;">
+        <div class="co05" style="height:60px;width:60px;display:inline-block"></div>
+        <span style="height:60px;line-height:60px">湖北腾楚网络科技</span>
+      </div>
+      <div style="height:60px;width:300px;">
+        <div class="co05" style="height:60px;width:60px;display:inline-block"></div>
+        <span style="height:60px;line-height:60px">华夏慧品</span>
+      </div>
+      <div style="height:60px;width:300px;">
+        <div class="co05" style="height:60px;width:60px;display:inline-block"></div>
+        <span style="height:60px;line-height:60px">交通大数据</span>
+      </div>
+      <div style="height:60px;width:300px;">
+        <div class="co05" style="height:60px;width:60px;display:inline-block"></div>
+        <span style="height:60px;line-height:60px">罗兰贝格</span>
+      </div>
+      <div style="width:300px;">
+        <div class="b03 co05" style="height:80px;width:80px;display:inline-block;vertical-align:middle">
+          <img style="width:50px;height:33px;padding-left:0px;padding-top:15px"
+            src="./assets/maxdata/深圳市麦达数字股份有限公司.png" />
+        </div>
+        <span>麦达数字</span>
+      </div>
+      <div style="width:300px;">
+        <div class="b03 co05" style="height:80px;width:80px;display:inline-block;vertical-align:middle">
+          <img style="width:50px;height:33px;padding-left:0px;padding-top:15px"
+            src="./assets/maxdata/南京江北新区大数据管理中心.png" />
+        </div>
+        <span>南京江北新区大数据管理中心</span>
+      </div>
+      <div style="height:60px;width:300px;">
+        <div class="co05" style="height:60px;width:60px;display:inline-block"></div>
+        <span style="height:60px;line-height:60px">四川多米塔科技有限公司</span>
+      </div>
+      <div style="height:60px;width:300px;">
+        <div class="co05" style="height:60px;width:60px;display:inline-block"></div>
+        <span style="height:60px;line-height:60px">医合智慧</span>
+      </div>
+      <div style="height:60px;width:300px;">
+        <div class="co05" style="height:60px;width:60px;display:inline-block"></div>
+        <span style="height:60px;line-height:60px">中电洲际</span>
+      </div>
+      <!-- IT互联网 -->
+      <div style="height:60px;width:300px;">
+        <div class="co05" style="height:60px;width:60px;display:inline-block"></div>
+        <span style="height:60px;line-height:60px">北京图鲸科技有限公司</span>
+      </div>
+      <div style="height:60px;width:300px;">
+        <div class="co05" style="height:60px;width:60px;display:inline-block"></div>
+        <span style="height:60px;line-height:60px">北京智慧星光信息技术有限公司</span>
+      </div>
+      <div style="width:300px;">
+        <div class="b03 co05" style="height:80px;width:80px;display:inline-block;vertical-align:middle">
+          <img style="width:50px;height:33px;padding-left:0px;padding-top:15px"
+            src="./assets/ITnetwork/华为科技.png" />
+        </div>
+        <span>华为科技</span>
+      </div>
+      <div style="width:300px;">
+        <div class="b03 co05" style="height:80px;width:80px;display:inline-block;vertical-align:middle">
+          <img style="width:50px;height:33px;padding-left:0px;padding-top:15px"
+            src="./assets/ITnetwork/腾讯科技.png" />
+        </div>
+        <span>腾讯科技</span>
+      </div>
+      <div style="height:60px;width:300px;">
+        <div class="co05" style="height:60px;width:60px;display:inline-block"></div>
+        <span style="height:60px;line-height:60px">北京易视点数码技术有限公司</span>
+      </div>
+      <div style="height:60px;width:300px;">
+        <div class="co05" style="height:60px;width:60px;display:inline-block"></div>
+        <span style="height:60px;line-height:60px">海医通</span>
+      </div>
+      <div style="height:60px;width:300px;">
+        <div class="co05" style="height:60px;width:60px;display:inline-block"></div>
+        <span style="height:60px;line-height:60px">花园兔数字园林</span>
+      </div>
+      <div style="height:60px;width:300px;">
+        <div class="co05" style="height:60px;width:60px;display:inline-block"></div>
+        <span style="height:60px;line-height:60px">昆岗科技</span>
+      </div>
+      <div style="height:60px;width:300px;">
+        <div class="co05" style="height:60px;width:60px;display:inline-block"></div>
+        <span style="height:60px;line-height:60px">上海积成慧集信息技术有限公司</span>
+      </div>
+      <div style="height:60px;width:300px;">
+        <div class="co05" style="height:60px;width:60px;display:inline-block"></div>
+        <span style="height:60px;line-height:60px">深圳市椭圆方程科技有限公司</span>
+      </div>
+      <div style="height:60px;width:300px;">
+        <div class="co05" style="height:60px;width:60px;display:inline-block"></div>
+        <span style="height:60px;line-height:60px">武大吉奥信息技术有限公司</span>
+      </div>
+      <div style="height:60px;width:300px;">
+        <div class="co05" style="height:60px;width:60px;display:inline-block"></div>
+        <span style="height:60px;line-height:60px">西安若华信息科技有限公司</span>
+      </div>
+      <div style="height:60px;width:300px;">
+        <div class="co05" style="height:60px;width:60px;display:inline-block"></div>
+        <span style="height:60px;line-height:60px">中冶赛迪</span>
+      </div>
+      <div style="height:60px;width:300px;">
+        <div class="co05" style="height:60px;width:60px;display:inline-block"></div>
+        <span style="height:60px;line-height:60px">资酷科技</span>
+      </div>
+      <!-- 规划研究院 -->
+      <div style="height:60px;width:300px;">
+        <div class="co05" style="height:60px;width:60px;display:inline-block"></div>
+        <span style="height:60px;line-height:60px">国家发改委城市中心</span>
+      </div>
+      <div style="height:60px;width:300px;">
+        <div class="co05" style="height:60px;width:60px;display:inline-block"></div>
+        <span style="height:60px;line-height:60px">国务院发展研究中心</span>
+      </div>
+      <div style="height:60px;width:300px;">
+        <div class="co05" style="height:60px;width:60px;display:inline-block"></div>
+        <span style="height:60px;line-height:60px">中国城市规划设计研究院</span>
+      </div>
+      <div style="height:60px;width:300px;">
+        <div class="co05" style="height:60px;width:60px;display:inline-block"></div>
+        <span style="height:60px;line-height:60px">广东省建筑设计研究院</span>
+      </div>
+      <div style="height:60px;width:300px;">
+        <div class="co05" style="height:60px;width:60px;display:inline-block"></div>
+        <span style="height:60px;line-height:60px">河南省城乡规划设计研究总院</span>
+      </div>
+      <div style="height:60px;width:300px;">
+        <div class="co05" style="height:60px;width:60px;display:inline-block"></div>
+        <span style="height:60px;line-height:60px">河南省城乡建筑设计院</span>
+      </div>
+      <div style="height:60px;width:300px;">
+        <div class="co05" style="height:60px;width:60px;display:inline-block"></div>
+        <span style="height:60px;line-height:60px">邵阳市城市规划设计研究院</span>
+      </div>
+      <div style="height:60px;width:300px;">
+        <div class="co05" style="height:60px;width:60px;display:inline-block"></div>
+        <span style="height:60px;line-height:60px">清华规划院</span>
+      </div>
+      <div style="height:60px;width:300px;">
+        <div class="co05" style="height:60px;width:60px;display:inline-block"></div>
+        <span style="height:60px;line-height:60px">武汉市规划院</span>
+      </div>
+      <div style="height:60px;width:300px;">
+        <div class="co05" style="height:60px;width:60px;display:inline-block"></div>
+        <span style="height:60px;line-height:60px">西安城市规划设计研究院</span>
+      </div>
+      <div style="height:60px;width:300px;">
+        <div class="co05" style="height:60px;width:60px;display:inline-block"></div>
+        <span style="height:60px;line-height:60px">浙江大学城乡规划设计研究院</span>
+      </div>
+      <div style="height:60px;width:300px;">
+        <div class="co05" style="height:60px;width:60px;display:inline-block"></div>
+        <span style="height:60px;line-height:60px">中国航空规划</span>
+      </div>
+      <div style="height:60px;width:300px;">
+        <div class="co05" style="height:60px;width:60px;display:inline-block"></div>
+        <span style="height:60px;line-height:60px">中国建筑科学研究院</span>
+      </div>
+      <div style="height:60px;width:300px;">
+        <div class="co05" style="height:60px;width:60px;display:inline-block"></div>
+        <span style="height:60px;line-height:60px">中国中建设计集团有限公司</span>
+      </div>
+      <div style="height:60px;width:300px;">
+        <div class="co05" style="height:60px;width:60px;display:inline-block"></div>
+        <span style="height:60px;line-height:60px">上海市建筑科学研究院</span>
+      </div>
+      <div style="height:60px;width:300px;">
+        <div class="co05" style="height:60px;width:60px;display:inline-block"></div>
+        <span style="height:60px;line-height:60px">中科院地理所</span>
+      </div>
+      <div style="height:60px;width:300px;">
+        <div class="co05" style="height:60px;width:60px;display:inline-block"></div>
+        <span style="height:60px;line-height:60px">北京华清安地建筑设计有限公司</span>
       </div>
     </div>
     <!--wrapper-->
     <script type="text/javascript">
       /*3D标签云*/
       tagcloud({
-        selector: ".tagcloud", //元素选择器
-        fontsize: 16, //基本字体大小, 单位px
-        radius: 60, //滚动半径, 单位px 页面宽度和高度的五分之一
-        mspeed: "slow", //滚动最大速度, 取值: slow, normal(默认), fast
-        ispeed: "slow", //滚动初速度, 取值: slow, normal(默认), fast
-        direction: 90, //初始滚动方向, 取值角度(顺时针360): 0对应top, 90对应left, 135对应right-bottom(默认)...
-        keep: false //鼠标移出组件后是否继续随鼠标滚动, 取值: false, true(默认) 对应 减速至初速度滚动, 随鼠标滚动
-      });
-      tagcloud({
         selector: ".tagcloud1", //元素选择器
         fontsize: 16, //基本字体大小, 单位px
-        radius: 40, //滚动半径, 单位px 页面宽度和高度的五分之一
+        radius: 180, //滚动半径, 单位px 页面宽度和高度的五分之一
         mspeed: "slow", //滚动最大速度, 取值: slow, normal(默认), fast
         ispeed: "slow", //滚动初速度, 取值: slow, normal(默认), fast
-        direction: 135, //初始滚动方向, 取值角度(顺时针360): 0对应top, 90对应left, 135对应right-bottom(默认)...
-        keep: false //鼠标移出组件后是否继续随鼠标滚动, 取值: false, true(默认) 对应 减速至初速度滚动, 随鼠标滚动
-      });
-      tagcloud({
-        selector: ".tagcloud2", //元素选择器
-        fontsize: 16, //基本字体大小, 单位px
-        radius: 100, //滚动半径, 单位px 页面宽度和高度的五分之一
-        mspeed: "slow", //滚动最大速度, 取值: slow, normal(默认), fast
-        ispeed: "slow", //滚动初速度, 取值: slow, normal(默认), fast
-        direction: 135, //初始滚动方向, 取值角度(顺时针360): 0对应top, 90对应left, 135对应right-bottom(默认)...
-        keep: false //鼠标移出组件后是否继续随鼠标滚动, 取值: false, true(默认) 对应 减速至初速度滚动, 随鼠标滚动
-      });
-      tagcloud({
-        selector: ".tagcloud3", //元素选择器
-        fontsize: 16, //基本字体大小, 单位px
-        radius: 80, //滚动半径, 单位px 页面宽度和高度的五分之一
-        mspeed: "slow", //滚动最大速度, 取值: slow, normal(默认), fast
-        ispeed: "slow", //滚动初速度, 取值: slow, normal(默认), fast
-        direction: 135, //初始滚动方向, 取值角度(顺时针360): 0对应top, 90对应left, 135对应right-bottom(默认)...
-        keep: false //鼠标移出组件后是否继续随鼠标滚动, 取值: false, true(默认) 对应 减速至初速度滚动, 随鼠标滚动
-      });
-      tagcloud({
-        selector: ".tagcloud4", //元素选择器
-        fontsize: 16, //基本字体大小, 单位px
-        radius: 80, //滚动半径, 单位px 页面宽度和高度的五分之一
-        mspeed: "slow", //滚动最大速度, 取值: slow, normal(默认), fast
-        ispeed: "slow", //滚动初速度, 取值: slow, normal(默认), fast
-        direction: 135, //初始滚动方向, 取值角度(顺时针360): 0对应top, 90对应left, 135对应right-bottom(默认)...
-        keep: false //鼠标移出组件后是否继续随鼠标滚动, 取值: false, true(默认) 对应 减速至初速度滚动, 随鼠标滚动
-      });
-      tagcloud({
-        selector: ".tagcloud1", //元素选择器
-        fontsize: 16, //基本字体大小, 单位px
-        radius: 80, //滚动半径, 单位px 页面宽度和高度的五分之一
-        mspeed: "slow", //滚动最大速度, 取值: slow, normal(默认), fast
-        ispeed: "slow", //滚动初速度, 取值: slow, normal(默认), fast
-        direction: 135, //初始滚动方向, 取值角度(顺时针360): 0对应top, 90对应left, 135对应right-bottom(默认)...
+        direction: 1100, //初始滚动方向, 取值角度(顺时针360): 0对应top, 90对应left, 135对应right-bottom(默认)...
         keep: false //鼠标移出组件后是否继续随鼠标滚动, 取值: false, true(默认) 对应 减速至初速度滚动, 随鼠标滚动
       });
     </script>
